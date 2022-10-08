@@ -73,20 +73,19 @@
 }
 
 .hero__table {
-    margin-top: 5rem;
-    display: flex;
-    align-items: center;
-}
-.table__left img {
-    width: 90%;
-}
-.table__left {
-    flex: 1;
+margin-top: 5rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "left right";
 }
 .table__right {
-    flex: 1;
+    padding: 5rem 0;
+    grid-area: right;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    gap: 5rem;
 }
+.table__left {
+    grid-area: left;
+}
+
