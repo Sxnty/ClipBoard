@@ -9,17 +9,18 @@
     text-decoration: none;
     font-family: 'Bai Jamjuree', sans-serif;
 }
-.hero {
-    background: url("./images/bg-header-desktop.png") center;
-    background-size:cover;
-}
+
 .hero__main {
     padding: 7rem;
+    background: url("./images/bg-header-desktop.png") no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 90vh;
 }
 .main__text {
     max-width: 35%;
@@ -40,6 +41,8 @@
     padding: .7rem 2rem;
     border-radius: 2rem;
     color: white;
+    cursor: pointer;
+    transition: background-color 250ms;
     font-weight: bold;
     box-shadow: 0px 3px 0px hsl(210, 10%, 33%);
 }
@@ -50,7 +53,15 @@
     border-radius: 2rem;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 250ms;
     box-shadow: 0px 3px 0px hsl(210, 10%, 33%);
+}
+.button--primary:hover {
+    background-color: hsl(233, 100%, 79%);
+}
+.button--secondary:hover {
+    background-color: hsl(202, 17%, 77%);
 }
 .hero__info {
     display: flex;
