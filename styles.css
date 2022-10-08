@@ -73,6 +73,7 @@
 }
 
 .hero__table {
+gap: 2rem;
 margin-top: 5rem;
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -85,7 +86,119 @@ grid-template-areas: "left right";
     flex-direction: column;
     gap: 5rem;
 }
+.table__right h4 {
+    color: hsl(210, 10%, 33%);
+}
+.table__right p {
+    color: hsl(201, 11%, 66%);
+}
 .table__left {
     grid-area: left;
 }
 
+
+.access {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.access__text {
+    width: 33%;
+}
+.access__text h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.7rem;
+}
+.access__text p {
+    padding: 1rem 0;
+    color: hsl(201, 11%, 66%);
+}
+.workflow {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.workflow__header h3{
+    font-size: 1.7rem;
+    color: hsl(210, 10%, 33%);
+}
+.workflow__header p {
+    padding: 1rem;
+    color: hsl(201, 11%, 66%);
+}
+.workflow__items {
+    display: flex;
+    margin-top: 3rem;
+}
+.workflow__item {
+    flex: 1;
+}
+.workflow__item h4 {
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+.workflow__item p {
+    color: hsl(201, 11%, 66%);
+}
+.workflow__bottom {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+}
+.promo {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main__text h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 1.7rem;
+}
+.footer {
+    margin-top: 5rem;
+    background-color: #eeeeee;
+    display: flex;
+    height: 15vh;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__logo img {
+    cursor: pointer;
+    width: 15%;
+}
+.footer__item {
+    justify-content: center;
+    gap: .5rem;
+    text-align: left;
+    flex: 1;
+}
+.space {
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+}
+.footer_socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    color: hsl(210, 10%, 33%);
+}
+.footer a {
+    color: hsl(210, 10%, 33%);
+    width: fit-content;
+}
