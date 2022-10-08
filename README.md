@@ -43,4 +43,4 @@ This challenge helped me to improve my knowledge using media queries to make the
 ## Author
 
 - Frontend Mentor - [@Sxnty](https://www.frontendmentor.io/profile/Sxnty)
-- Twitter - [@SxntyCS](https://www.twitter.com/sxntycs
+- Twitter - [@SxntyCS](https://www.twitter.com/sxntycs)
