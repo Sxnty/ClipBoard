@@ -25,6 +25,9 @@
 .main__text {
     max-width: 35%;
 }
+.hero__main img {
+    padding: 2rem;
+}
 .main__text p {
     padding: 2rem 0;
     color: hsl(201, 11%, 66%);
@@ -212,4 +215,80 @@ grid-template-areas: "left right";
 .footer a {
     color: hsl(210, 10%, 33%);
     width: fit-content;
+}
+
+
+@media screen and (max-width: 485px){
+    .hero__main {
+        margin: 0;
+        padding: 0;
+        background: url("./images/bg-header-mobile.png") no-repeat;
+        background-size:cover ;
+        background-position: center;
+    }
+    .main__text {
+        max-width: 80%;
+    }
+    .button--primary, .button--secondary {
+        margin: 1rem 0;
+        padding: 1rem 5rem;
+    }
+    .hero__info {
+        margin-top: 0;
+    }
+    .info__text {
+        max-width: 80%;
+    }
+    .table__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .table__left img {
+        max-width: 90%;
+    }
+    .hero__table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .access {
+        margin-top: 1rem;
+    }
+    .access__text {
+        width: 80%;
+    }
+    .access img {
+        max-width: 100%;
+    }
+    .workflow {
+        margin-top: 5rem;
+    }
+    .workflow__items {
+        gap: 5rem;
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .workflow__bottom {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .footer__item {
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__item a {
+        padding: .5rem 0;
+    }
+
 }
